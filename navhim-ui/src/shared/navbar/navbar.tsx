@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Calendar } from "lucide-react";
-import { Logo } from "@/asset/logo";
+import { Logo, Logo1 } from "@/asset/logo";
 
 const Header = () => {
   return (
@@ -39,6 +39,7 @@ const Header = () => {
           Book an Appointment <Calendar size={16} />
         </Link>
       </div>
+      
     </header>
   );
 };
